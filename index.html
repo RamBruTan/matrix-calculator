@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matrix Calculator</title>
+    <meta name="description" content="Matrix calculator with Desmos style typing">
+    <meta name="author" content="RamBruTan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Matrix Calculator" />
+    <meta property="og:description" content="Matrix calculator with Desmos style typing" />
+    <meta property="og:image" content="/matrix-calculator/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Matrix Calculator" />
+    <meta name="twitter:description" content="Matrix calculator with Desmos style typing" />
+    <meta name="twitter:image" content="/matrix-calculator/og-image.png" />
+
+    <!-- Register MathLive @font-face declarations at document level -->
+    <link rel="stylesheet" href="/mathlive-fonts.css">
+    <!-- Preload critical MathLive fonts -->
+    <link rel="preload" href="/fonts/KaTeX_Main-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/KaTeX_Math-Italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/KaTeX_Size1-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/KaTeX_Size2-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/KaTeX_Size3-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/KaTeX_Size4-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  </head>
+
+  <body>
+    <script>
+      window.global = window;
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
